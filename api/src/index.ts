@@ -25,7 +25,9 @@ initiateDatabase()
               country: "Unknown",
             }));
 
-          if (ctry.country !== "UK") {
+            console.log(ctry);
+            
+          if (ctry.country !== "GB") {
             return res.status(404).end();
           }
 
